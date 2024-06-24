@@ -11,6 +11,12 @@ function handleInputChange(event) {
   setNewBook({ ...newBook, [event.target.name]: event.target.value });
 }
 
+function handleSubmit(event) {
+  event.preventDefault();
+  setBooks({ ...newBook, newBook });
+  setNewBook({ title: "", author: "" });
+}
+
 <div className="bookshelfDiv">
   <div className="formDiv">
     <h3>Add a Book</h3>
