@@ -1,4 +1,3 @@
-
 import './App.css';
 import Bookshelf from './Bookshelf.jsx';
 
@@ -10,6 +9,6 @@ function App() {
       <Bookshelf />
     </>
   );
-};
+}
 
 export default App;
