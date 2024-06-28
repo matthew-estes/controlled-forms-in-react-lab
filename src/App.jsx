@@ -1,12 +1,13 @@
-import './App.css';
-import Bookshelf from './Bookshelf.jsx';
+import "./index.css";
+import Bookshelf from "./Bookshelf.jsx";
 
 function App() {
-  
   return (
     <>
-      <h1>My Bookshelf</h1>
+    <div className="container">
+    <h1>My Bookshelf</h1>
       <Bookshelf />
+      </div>
     </>
   );
 }
